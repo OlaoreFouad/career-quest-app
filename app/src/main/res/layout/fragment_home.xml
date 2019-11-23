@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Hey, name"
+        android:textSize="23sp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/username"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_career_quest_2019"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        android:textSize="17sp"
+        android:id="@+id/careerQuestIntro"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/careerQuestIntro"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Program Of Events"
+        android:id="@+id/programHeading"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventsRecycler"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@id/programHeading"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

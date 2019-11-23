@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067844780430",
+    "firebase_url": "https://cq-app-dc2dc.firebaseio.com",
+    "project_id": "cq-app-dc2dc",
+    "storage_bucket": "cq-app-dc2dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067844780430:android:4375223c886faff8",
+        "android_client_info": {
+          "package_name": "dev.foodie.cq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067844780430-f6qeosevkm4v9ughbm0634aoega2jutu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.foodie.cq",
+            "certificate_hash": "77830ada6cbff72fd94876a5640f3de90bcb5dc6"
+          }
+        },
+        {
+          "client_id": "1067844780430-pooakq8a2nhqbrrktum2oov5dh2tbo81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLizbIrPnhTG2_FdEiojuOQFGrazz1TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067844780430-pooakq8a2nhqbrrktum2oov5dh2tbo81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

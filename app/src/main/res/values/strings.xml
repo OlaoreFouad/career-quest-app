@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CQ</string>
+    <string name="welcome_to_career_quest_2019">Welcome To Career Quest, 2019.</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_chat">Chats</string>
+    <string name="navigation_students">Students</string>
+    <string name="default_web_client">AIzaSyCJGEvBEtFI4eA5LDMrAhreHOyV_l3LkUw</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consecteur_adsplicign_more_text_would_follow_until_i_am_tried">Lorem Ipsum dolor sit amet consecteur adsplicign, more text would follow until i am tried</string>
+    <string name="this_is_the_program_content">This is the program content!</string>
+</resources>
